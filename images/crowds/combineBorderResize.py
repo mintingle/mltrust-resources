@@ -135,5 +135,8 @@ pairsList += [['img_0885.jpg', 'img_1188.jpg'], ['img_0797.jpg', 'img_0217.jpg']
 #QNRF correct
 pairsList += [['img_0901.jpg', 'img_1056.jpg'], ['img_0427.jpg', 'img_1151.jpg'], ['img_0932.jpg', 'img_0244.jpg'], ['img_0457.jpg', 'img_1000.jpg']]
 
+#EXTRAS
+pairsList += [['img_0999.jpg', 'img_0876.jpg']]
+
 for pair in pairsList:
     create_img(pair[0], pair[1])
